@@ -11,9 +11,9 @@ Funcionalidades:
 # Planificación:
 tareas:
  
- juan; login
- pablo; html del home
- ricardo; encuesta y gráficos con los datos
+ - juan; login
+ - pablo; html del home
+ - ricardo; encuesta y gráficos con los datos
 
 
 Tecnologías a usar:
