@@ -10,7 +10,7 @@ Funcionalidades:
 
 # Planificación:
 tareas:
-ricardo; encuesta y gráficos con los datos
+ricardo; encuesta y gráficos con los datos \n
 juan; login
 pablo; html del home
 
