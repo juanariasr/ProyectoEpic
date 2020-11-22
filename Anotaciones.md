@@ -6,4 +6,4 @@ Funcionalidades:
 3) Encuesta
 4) Buscador de candidatos
 5) Graficos polares de votantes y candidatos
-6) Linea de tiempo con los eventos pasados y futuros del proceso ql.
+6) Linea de tiempo con los eventos pasados y futuros del respetable proceso constitucional.
