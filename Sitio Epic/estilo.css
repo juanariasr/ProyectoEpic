@@ -131,3 +131,11 @@ header a:hover{
 .imag{
     width: 150px;
 }
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #1293d4;
+    text-align: center;
+}
