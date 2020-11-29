@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla 2</title>
+</head>
+<body>
+    <h1>
+        <p>Hola Ingeniero, EpicPagina te armaste wn</p>
+        <p>Es la Plantilla PA </p>  
+    </h1>
+    <p>El nombre del wn mas pro es: {{nombre}}</p>
+    <h2>La data maxima esta siendo entregada a las: {{fecha}}</h2>
+    <p>{{lista.1}}</p>
+    <p><strong>Data de Curso</strong></p>
+    <p>
+        <ul>
+        {% if  lista %}
+            {% for i in lista %}
+                <li>{{i}}</li>
+            
+            {% endfor %}
+        {% else %}
+            <p>No hay elementos pa</p>
+        {% endif %}
+        </ul>
+
+    </p>
+</body>
+</html>
