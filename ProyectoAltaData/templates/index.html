@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Plebiscito 2020, Constituyentes, Votaciones"> 
+        <link rel="shortcut icon" href="{% static '/images/descarga.png' %}">
+        <link rel="stylesheet" href="{% static '/estilo.css' %}">
+        <title>Constituyentes2020</title>
+    </head>
+    <body>
+        <header>
+            <div class="contenedor">
+                <div id="marca">
+                    <h1><span class="resaltado">Constituyentes</span> 2020</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="actual"><a href="index.html">INICIO</a></li>
+                        <li><a href="https://www.gob.cl/noticias/infografia-conoce-las-etapas-del-proceso-constituyente/" target="_blank">INFORMACION</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                        <li><a href="{% static '/Login V2/index.html' %}">ENTRAR</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="cabecera">
+            <div class="contenedor">
+                <h1>Vota Informado con AltaData</h1>
+                <p><img class="voto" src="{% static '/images/icono3.svg' %}"></p>
+            </div>
+
+        </section>
+
+        <section id="boletin">
+            <div class="contenedor">
+                <h1>Suscríbete para mas data</h1>
+                <form>
+                    <input type="email" name="" placeholder="Ingrese el Email">
+                    <button type="submit" class="boton1">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="cajas">
+            <div class="contenedor">
+                <div class="caja">
+                    <img class="imag" src="{% static '/images/icono.png' %}">
+                    <h3>Plebiscito 2020</h3>
+                    <p>Primera vez en la historia de Chile que se elige democraticamente si se desea redactar una nueva constitucion 
+                        y a través de que mecanismo.</p>
+                </div>
+                <div class="caja">
+                    <img class="imag" src="{% static '/images/constituyentes2.png' %}">
+                    <h3>Constituyentes</h3>
+                    <p>Se votara por distritos y los candidatos a constituyentes pueden pertenecer a un partido politico o ser independientes.</p>
+                </div>
+                <div class="caja">
+                    <img class="imag" src="{% static '/images/lupa.png' %}">
+                    <h3>Proceso Constituyente</h3>
+                    <p>La nueva carta magna sera redactada por una Convencion Constituyente compuesta por 155 miembros electos por votacion popular
+                        el 11 de abril de 2021.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Sitio Web Protegido AltaData, Copyright © 2020
+        </footer>
+
+    </body>
+</html>
