@@ -1,0 +1,46 @@
+body {
+  background-color: #1ba4ce;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#pokedex-container {
+  background-color: white;
+  width: 500px;
+  display: inline-block;
+  border-radius: 25px;
+  margin: 100px 20px 0px 0px; /* Arirba Abajo Lados*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 3px 3px 15px black;
+}
+
+#pokemon-logo {
+  margin: 0 auto;
+  width: 350px;
+}
+
+#pokemon-image {
+  width: 128px;
+}
+
+img[src=""] {
+  display: none;
+}
+
+.nav {
+  margin: 10px 10px 0px 0px;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  background: rgb(240, 160, 32);
+  color: white;
+  border-radius: 10px;
+}
+
+a:hover{
+  background: #ffc107;
+}
